@@ -1,2 +1,3 @@
-# teaching-tools
-Teaching tools for a school server.
+# Education Equipment
+
+Discord bot with tools to make classroom learning easier. 

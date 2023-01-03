@@ -1,0 +1,26 @@
+{
+  "name": "education-equipment",
+  "version": "1.0.0",
+  "description": "Discord bot with tools to make classroom learning easier.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamsantosa/education-equipment.git"
+  },
+  "keywords": [],
+  "author": "William Santosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamsantosa/education-equipment/issues"
+  },
+  "homepage": "https://github.com/williamsantosa/education-equipment#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
