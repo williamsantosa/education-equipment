@@ -24,7 +24,7 @@ module.exports = {
 			await interaction.reply(`Invalid input. ${number1} > ${number2}`);
 		} 
 		if (number1 && number2) {
-			const val = Math.floor(Math.random() * (number2 - number1) ) + number1;
+			const val = Math.floor(Math.random() * (number2 - number1 + 1) ) + number1;
 			await interaction.reply(`${val}`);
 		}
 	},
