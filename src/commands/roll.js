@@ -6,7 +6,8 @@ module.exports = {
 		.setDescription('Returns a random number from 1 to number1 iff only number1. Otherwise, from number1 to number2.')
 		.addNumberOption(option => 
 			option.setName('number1')
-				.setDescription('First number inputted.'))
+				.setDescription('First number inputted.')
+				.setRequired(true))
 		.addNumberOption(option => 
 			option.setName('number2')
 				.setDescription('Second number inputted.')),
